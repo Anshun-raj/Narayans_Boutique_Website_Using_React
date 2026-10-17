@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.team {
+    width: 100%;
+    height: 93vh;
+    background-color: yellow;
+}
+
+.team h1 {
+  text-align: center;
+  font-size: 44px;
+  padding: 10px 0;
+  color: red;
+}
+
+.team .teamData {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.team .teamData .teamDataCard {
+  width: 400px;
+  height: 450px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 30px;
+  border: 2px solid #000;
+}
+
+.team .teamData .teamDataCard img {
+  position: relative;
+  width: 80%;
+  height: 50%;
+  border-radius: 4px;
+}
+
+.team .teamData .teamDataCard h3 {
+  padding: 10px 0;
+  font-size: 28px;
+  color: blue;
+  font-weight: bold;
+}
+
+.team .teamData .teamDataCard .icon {
+  font-size: 36px;
+  transition: 0.5s all;
+  margin: 10px 2px;
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.team .teamData .teamDataCard .icon:hover {
+  color: rgb(107, 106, 106);
+  cursor: pointer;
+}
+
+.team .teamData .teamDataCard .btn6 {
+  padding: 10px 15px;
+  border: none;
+  font-weight: bold;
+  background-color: blue;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}

@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact{
+    width: 100%;
+    height: 93vh;
+    background-color: yellow;
+}
+
+.contact h2{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+
+.contact .contactData{
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+   height: 90%;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+
+.contact form {
+  padding: 20px;
+  border: 2px solid rgb(119, 119, 240);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.contact form input {
+  width: 90%;
+  height: 5vh;
+  margin: 15px 0;
+}
+.contact form select {
+  width: 90%;
+  height: 5vh;
+  color: grey;
+  margin: 15px 0;
+}
+
+.contact form input::placeholder,
+select::placeholder {
+  padding: 0 2px;
+}
+
+.contact form .btn5 {
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(69, 69, 237);
+  color: #fff;
+  border-radius: 3px;
+  transition: 0.5s all;
+  margin: 10px 0;
+}
+
+.contact form .btn5:hover {
+  background-color: rgb(74, 74, 74);
+}

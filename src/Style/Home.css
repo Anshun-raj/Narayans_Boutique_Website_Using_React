@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home{
+    width: 100%;
+    height: 93vh;
+    background-color: yellow;
+}
+.home .homeInfo{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.home .homeInfo h2{
+    font-size: 40px;
+    line-height: 1.5;
+    color: red;
+}
+.home .homeInfo p{
+    font-weight: 600;
+    font-size: 18px;
+    width: 75%;
+    padding: 5px;
+}
+.home .homeInfo .btn{
+    margin: 5px;
+    background: #000;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: bolder;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.home .homeInfo .btn:hover{
+    background-color: red;
+    transition: 0.5s ease-in-out;
+}

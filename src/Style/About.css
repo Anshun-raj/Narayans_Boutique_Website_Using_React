@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.about{
+    width: 100%;
+    height: 93vh;
+    background-color: yellow;
+}
+
+.about h2{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+
+.about .aboutInfo{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.about .aboutInfo .aboutLeft{
+    width: 45%;
+}
+
+.about .aboutInfo .aboutLeft img{
+   width: 450px;
+   border: 3px solid red;
+   padding: 10px;
+   border-radius: 3.5px;
+   cursor: pointer;
+}
+
+.about .aboutInfo .aboutRight{
+    width: 45%;
+    text-align: center;
+}
+.about .aboutInfo .aboutRight h3{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
+.about .aboutInfo .aboutRight p{
+    font-weight: 500;
+}

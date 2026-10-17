@@ -1,0 +1,50 @@
+.navbar{
+  background-color: rgb(130, 127, 127);
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navLeft 
+{
+  padding: 5px;
+}
+
+.navbar .navLeft h2{
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.navbar .navLeft h2:hover{
+    color: yellow;
+    transition: 0.5s ease-in-out;
+}
+
+.navbar .navRight{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.navbar .navRight li{
+    list-style: none;
+}
+
+.navbar .navRight .x{
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar .navRight .x:hover{
+    color: yellow;
+    transition: 0.5s ease-in-out;
+}
